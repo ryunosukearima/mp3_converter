@@ -23,7 +23,7 @@
 
 ## プロジェクト名
 
-YOUYUBE MP3 COMVERTER
+YOUYUBE MP3 CONVERTER
 
 <!-- プロジェクトについて -->
 
@@ -56,7 +56,8 @@ YOUYUBE MP3 COMVERTER
 ・MP3タグの編集機能
 <br>
 <br>
-YouTube urlの欄には、[youtube](https://www.youtube.com/?app=desktop&hl=ja)<br>からダウンロードしたい動画のリンクを入力。
+YouTube urlの欄には、[GitHubのトップページ](https://github.com)
+からダウンロードしたい動画のリンクを入力。
 <br>
 出力されるファイル名は、曲名に入力されたものが使用され、空白が含まれていた場合、空白を'_'に置換した状態で出力される。
 変換ボタンでダウンロード、リセットボタンで入力したテキストの一括消去が可能。
