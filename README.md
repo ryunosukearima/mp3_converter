@@ -70,10 +70,13 @@ YouTube urlの欄には、[YOUTUBE](https://www.youtube.com/?app=desktop&hl=ja)
 
 ## 使用方法
 <br>
-
+何も入力していない状態
+<br>
 <img src='youtube_README_images/YouTube MP3コンバータ - Google Chrome 2025_03_14 18_29_42.png'>
 <br>
 入力例
+<br>
+上から、YOUTUBEURL・出力ファイル名兼楽曲名・アーティスト名・楽曲のコメントを入力しています。
 <br>
 <img src='youtube_README_images/YouTube MP3コンバータ - Google Chrome 2025_03_14 18_29_07.png'>
 <br>
@@ -83,4 +86,4 @@ YouTube urlの欄には、[YOUTUBE](https://www.youtube.com/?app=desktop&hl=ja)
 <br>
 
 
-<p align="right">(<a href="#top">トップへ</a>)
+<p align="right">(<a href="#top">トップへ</a>)の
