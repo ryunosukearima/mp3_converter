@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube MP3 Converter</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/ress@5.0.2/dist/ress.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-box"></div>
+        <h1 class="header">YOUTUBE MP3 CONVERTER</h1>
+        <div class="drawer" id="drawerOpen">
+            <img src="../images/614504.webp" alt="" height="80px" width="80px" id="drawer">
+        </div>
+    </header>
+
+
+    <main>
+        
+        <h1 class="title"></h1>
+        <form class="form" action="/download" method="POST">
+
+            <div class="form-item">
+                <div class="form-name">
+                    <label class="youtube-url" for="youtube_url">YouTube url</label>
+                </div>
+                <input class="input-form" type="url" id="create-youtube" name="youtube_url" placeholder="https://youtu.be/" required autofocus>
+            </div>
+
+            <div class="form-item">
+                <div class="form-name">
+                    <label class="file-name" for="custom_filename">Output file</label>
+                    </div>
+                <input class="input-form" type="text" id="create-output" name="custom_filename" placeholder="Song title" required>
+            </div>
+
+            <div class="form-item">
+                <div class="form-name">
+                    <label class="artist-name" for="artist_name">Artist</label>
+                </div>
+                <input class="input-form" type="text" name="artist_name" placeholder="Artist">
+            </div>
+            
+            <div class="form-item">
+                <div class="form-name">
+                    <label class="comment" for="comment">Comment</label>
+                </div>
+                <input class="input-form" type="text" name="comment" placeholder="使用作品名 項目">
+            </div>
+
+            <div class="form-item">
+                <input class="input-btn convert-btn" type="submit" value="変換" id="convert-btn" onclick="create_youtube_url()">
+                <input class="input-btn" type="reset" value="リセット">
+            </div>
+
+            <!-- ローディング画面 -->
+            <div class="loading-none" id="loading">
+                <div class="loading-item-none" id="loading-item">
+                </div>
+            </div>
+
+        </form>
+    </main>
+    
+    <!-- drawer -->
+    <div id="drawerNavi" class="overlay">
+        <div id="drawerClose">
+            <span class="lineClose"></span>
+        </div>
+        <ul class="overlay-content">
+            <li class="drawer-text">TOOLS LINK</li>
+            <li><a href="http://anison.info/data/#google_vignette" target="_blank">アニソンデータベース</a></li>
+            <li><a href="https://www.youtube.com/?app=desktop&hl=ja" target="_blank">YOUTUBE</a></li>
+            <!-- <li><a href="#">MENU3</a></li>
+            <li><a href="#">MENU4</a></li>
+            <li><a href="#">MENU5</a></li> -->
+        </ul>
+    </div>
+    
+    <footer>
+        <div class="footer"></div>
+    </footer>
+
+    <div id="root"></div>
+    <script type="module" src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

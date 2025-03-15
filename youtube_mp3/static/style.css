@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+body {
+    background: url("../images/Vibe%20Background%20GIF%20by%20Wakelet.gif");
+    background-repeat: no-repeat;
+    /* background-size: cover */
+    background-size: auto 2000px;
+    
+}
+
+header {
+    width: auto;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    
+    
+}
+header .header-box {
+    width: 80px;
+    height: 80px;
+}
+header .header {
+    margin: 0 auto 0 auto;
+}
+header .drawer {
+    display: flex;
+    justify-content: flex-end;
+}
+header .button {
+    text-size-adjust: 80px;
+}
+
+/* mein-content */
+main { 
+    width: auto;
+    height: 1200px;
+    margin: auto;
+    padding: 200px 0 700px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.form {
+    position: relative;
+}
+.form-item {
+    text-align: center;
+    margin-top: 30px;
+}
+.form-name {
+    display: flex;
+}
+.youtube-url,.file-name,.artist-name,.comment {
+    justify-content: flex-start;
+}
+.input-form {
+    margin-top: 7px;
+    width: 700px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease, transform 0.5s, box-shadow 0.5s ease;; /* アニメーションの設定 */
+}
+.input-form:hover {
+     /* フォーカス時の背景色 */
+    background-color: rgba(255, 255, 255, 0.6);
+     /* フォーカス時に少し拡大 */
+    transform: scale(1.05);
+    box-shadow: 0 10px 27px 0 rgba(0, 0, 0, 0.15);
+}
+
+.input-btn {
+    background: rgba(255, 255, 255, 0.3);
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    margin: 0 5px 0 5px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease, transform 0.5s, box-shadow 0.5s ease;; /* アニメーションの設定 */
+}
+.input-btn:hover {
+    /* フォーカス時の背景色 */
+    background-color: rgba(255, 255, 255, 0.6); 
+     /* フォーカス時に少し拡大 */
+    transform: scale(1.05);
+    box-shadow: 0 10px 27px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* ローディングエフェクト */
+.loading {
+    /* 絶対位置(main position:relative)からの位置指定 */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* loading background */
+    height: 200px;
+    width: 200px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.loading-item {
+    /* loading img */
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/default-gray.svg);
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* drawer */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  #drawerNavi ul.overlay-content {
+      padding: 0;
+      list-style: none;
+      border: none;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      top: 15%;
+      transform: translateY(-50%);
+  }
+  ul.overlay-content li {
+      padding: 0;
+  }
+  .overlay-content .drawer-text {
+    color: white;
+    font-size: 2.5rem;
+  }
+  .overlay-content li a {
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: #707070;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay-content li a:hover, .overlay-content li a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* close */
+  #drawerClose {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 60px;
+    cursor: pointer;
+  }
+  #drawerClose:hover {
+      opacity: 0.8;
+  }
+  
+  .lineClose {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: #FFF;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.lineClose::after {
+    content: '';
+    position: absolute;
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: inherit;
+    transform: rotate(90deg);
+    top: 0;
+    left: 0;
+}
+
+  
+  @media screen and (max-width: 767px) {
+    .overlay-content li a {
+      font-size: 1.7rem;
+  }
+    #drawerClose {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+  .footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 100%;
+  }
