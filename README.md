@@ -23,7 +23,7 @@
 
 ## プロジェクト名
 
-YOUYUBE MP3 CONVERTER
+YOUTUBE MP3 CONVERTER
 
 <!-- プロジェクトについて -->
 
