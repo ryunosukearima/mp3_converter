@@ -48,21 +48,22 @@ YOUYUBE MP3 COMVERTER
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## 使用方法
-<img src='youtube_README_images/YouTube MP3コンバータ - Google Chrome 2025_03_14 18_29_42.png'>
 <br>
 このサイトには、MP3のタグを編集する機能を搭載しておりテキストを入力したものがダウンロードするMP3タグに挿入されます。
 出力されるファイル名は、曲名に入力されたものが使用され、空白が含まれていた場合、空白を'_'に置換した状態で出力されます。
 変換ボタンでダウンロード、リセットボタンで入力したテキストの一括消去が可能。連続して同じファイルのダウンロードを避けるため、変換ボタン押下1000分の1秒後にYouTube url
 ・Output fileに入力されたテキストは削除されます。
 ビットレートは320kbpsの形で出力
-<br>
-<img src='youtube_README_images/YouTube MP3コンバータ - Google Chrome 2025_03_14 18_29_07.png'>
+<img src='youtube_README_images/YouTube MP3コンバータ - Google Chrome 2025_03_14 18_29_42.png'>
 <br>
 入力例
 <br>
-<img src='youtube_README_images/曲の情報 2025_03_14 18_31_36.png'>
+<img src='youtube_README_images/YouTube MP3コンバータ - Google Chrome 2025_03_14 18_29_07.png'>
 <br>
 入力したものが対応したタグに入力されています。
+<br>
+<img src='youtube_README_images/曲の情報 2025_03_14 18_31_36.png'>
+<br>
 
 
 <p align="right">(<a href="#top">トップへ</a>)
