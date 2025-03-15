@@ -86,4 +86,4 @@ YouTube urlの欄には、[YOUTUBE](https://www.youtube.com/?app=desktop&hl=ja)
 <br>
 
 
-<p align="right">(<a href="#top">トップへ</a>)の
+<p align="right">(<a href="#top">トップへ</a>)
