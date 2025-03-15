@@ -56,13 +56,13 @@ YOUYUBE MP3 COMVERTER
 ・Output fileに入力されたテキストは削除されます。
 ビットレートは320kbpsの形で出力
 <br>
-<br>
 <img src='youtube_README_images/YouTube MP3コンバータ - Google Chrome 2025_03_14 18_29_07.png'>
 <br>
+入力例
 <br>
 <img src='youtube_README_images/曲の情報 2025_03_14 18_31_36.png'>
 <br>
-入力したものが対応するタグに入力されています。
+入力したものが対応したタグに入力されています。
 
 
-<p align="right">(<a href="#top">トップへ</a>)<変換ボタン
+<p align="right">(<a href="#top">トップへ</a>)
