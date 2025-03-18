@@ -57,8 +57,9 @@ YOUTUBE MP3 CONVERTER
 ・MP3タグの編集機能
 <br>
 <br>
-YouTube urlの欄には、[YOUTUBE](https://www.youtube.com/?app=desktop&hl=ja)
-からダウンロードしたい動画のリンクを入力。
+YouTube urlの欄には、youtubeからダウンロードしたい動画のリンクを入力。
+<br>
+[YOUTUBE公式サイト](https://www.youtube.com/?app=desktop&hl=ja)
 <br>
 ダウンロードされるファイル名は、Output fileに入力されたものが使用され、空白が含まれていた場合、空白を'_'に置換した状態で出力される。
 変換ボタンでダウンロード、リセットボタンで入力したテキストの一括消去が可能。
@@ -72,13 +73,19 @@ YouTube urlの欄には、[YOUTUBE](https://www.youtube.com/?app=desktop&hl=ja)
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## セットアップ
+<br>
 1 pythonをインストール
+<br>
 <br>
 2 必要なpythonライブラリをインストール
 <br>
-| pip install flask flask-socketio eventlet yt-dlp eyed3 mutagen  | 
+<br>
+pip install flask flask-socketio eventlet yt-dlp eyed3 mutagen
+<br>
 <br>
 3 FFmpegのインストール
+<br>
+FFmpeg公式サイトからWindows用のバイナリをダウンロード
 <br>
 [FFmpeg公式サイト](https://www.youtube.com/?app=desktop&hl=ja)
 <br>
