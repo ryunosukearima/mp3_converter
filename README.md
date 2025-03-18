@@ -19,14 +19,11 @@
 5. [使用方法](#使用方法)
 
 
-
-<!-- プロジェクト名を記載 -->
-
 ## プロジェクト名
 
 YOUTUBE MP3 CONVERTER
 
-<!-- プロジェクトについて -->
+
 
 ## プロジェクトについて
 
@@ -45,13 +42,12 @@ YOUTUBE MP3 CONVERTER
 | html |
 | css                 |
 | javascript               |
-
-
+<br>
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## 機能説明
-<br>
+
 ・MP3ダウンロード機能
 <br>
 ・MP3タグの編集機能
@@ -68,12 +64,12 @@ YouTube urlの欄には、youtubeからダウンロードしたい動画のリ�
 ・Output fileに入力されたテキストは削除される。
 <br>
 ビットレートは320kbpsの形で出力
-
+<br>
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## セットアップ
-<br>
+
 1 pythonをインストール
 <br>
 <br>
@@ -95,7 +91,7 @@ FFmpeg公式サイトからWindows用のバイナリをダウンロード
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## 使用方法
-<br>
+
 何も入力していない状態
 <br>
 <img src='youtube_README_images/YouTube MP3コンバータ - Google Chrome 2025_03_14 18_29_42.png'>
@@ -110,6 +106,5 @@ FFmpeg公式サイトからWindows用のバイナリをダウンロード
 <br>
 <img src='youtube_README_images/曲の情報 2025_03_14 18_31_36.png'>
 <br>
-
 
 <p align="right">(<a href="#top">トップへ</a>)
