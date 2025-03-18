@@ -58,7 +58,7 @@ YOUTUBE MP3 CONVERTER
 <br>
 <br>
 YouTube urlの欄には、youtubeからダウンロードしたい動画のリンクを入力。
-<br>
+
 [YOUTUBE公式サイト](https://www.youtube.com/?app=desktop&hl=ja)
 <br>
 ダウンロードされるファイル名は、Output fileに入力されたものが使用され、空白が含まれていた場合、空白を'_'に置換した状態で出力される。
@@ -86,7 +86,7 @@ pip install flask flask-socketio eventlet yt-dlp eyed3 mutagen
 3 FFmpegのインストール
 <br>
 FFmpeg公式サイトからWindows用のバイナリをダウンロード
-<br>
+
 [FFmpeg公式サイト](https://www.youtube.com/?app=desktop&hl=ja)
 <br>
 ダウンロードしたファイルを解凍し、フォルダをシステム環境変数のPATHに追加。
