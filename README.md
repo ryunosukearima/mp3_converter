@@ -15,7 +15,8 @@
 1. [プロジェクトについて](#プロジェクトについて)
 2. [環境](#環境)
 3. [機能説明](#機能説明)
-4. [使用方法](#使用方法)
+4. [セットアップ](#セットアップ)
+5. [使用方法](#使用方法)
 
 
 
@@ -67,6 +68,22 @@ YouTube urlの欄には、[YOUTUBE](https://www.youtube.com/?app=desktop&hl=ja)
 <br>
 ビットレートは320kbpsの形で出力
 
+
+<p align="right">(<a href="#top">トップへ</a>)</p>
+
+## セットアップ
+1 pythonをインストール
+<br>
+2 必要なpythonライブラリをインストール
+<br>
+| pip install flask flask-socketio eventlet yt-dlp eyed3 mutagen  | 
+<br>
+3 FFmpegのインストール
+<br>
+[FFmpeg公式サイト](https://www.youtube.com/?app=desktop&hl=ja)
+<br>
+ダウンロードしたファイルを解凍し、フォルダをシステム環境変数のPATHに追加。
+<br>
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
