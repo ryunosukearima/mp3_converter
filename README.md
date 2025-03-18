@@ -57,11 +57,9 @@ YOUTUBE MP3 CONVERTER
 ・MP3タグの編集機能
 <br>
 <br>
-<p>
 YouTube urlの欄には、youtubeからダウンロードしたい動画のリンクを入力。
 
 [YOUTUBE公式サイト](https://www.youtube.com/?app=desktop&hl=ja)
-</p>
 <br>
 ダウンロードされるファイル名は、Output fileに入力されたものが使用され、空白が含まれていた場合、空白を'_'に置換した状態で出力される。
 変換ボタンでダウンロード、リセットボタンで入力したテキストの一括消去が可能。
